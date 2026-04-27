@@ -286,7 +286,7 @@ pub static BYTE_TOKENS: LazyLock<HashMap<Byte, &'static str>> = LazyLock::new(||
         (Byte::Single(0xE8), "Get("),
         (Byte::Single(0xE9), "PlotsOn "),
         (Byte::Single(0xEA), "PlotsOff "),
-        (Byte::Single(0xEB), "l"),
+        (Byte::Single(0xEB), "∟"),
         (Byte::Single(0xEC), "Plot1("),
         (Byte::Single(0xED), "Plot2("),
         (Byte::Single(0xEE), "Plot3("),
